@@ -1,6 +1,6 @@
-# UI5PRELOAD
+# UI5Preload
 
-Builds Component-preload.js for OPENUI5/SAPUI5 with Gulp. The preload combines only the files you want to, so you can keep bigger applications lean on the initial load (homepage,search,landingpage, etc.). Please configure the gulpfile accordingly (Views Directory, Preload Destination and Namespaces). The Gulp build adds crlf and utf8 to the Component-preload.js file so you don't have issues with Eclipse.
+Builds Component-preload.js for OPENUI5/SAPUI5 with Gulp. The preload combines only the files you want to (homepage, search, landingpage, etc.), so you can keep bigger applications lean on the initial load. Please configure the gulpfile accordingly (Views Directory, Preload Destination and Namespaces). The Gulp build adds crlf and utf8 to the Component-preload.js file so you don't have issues with Eclipse.
 
 
 ## Getting Started
@@ -51,7 +51,7 @@ gulp.task('buildthirdpartyscripts', function() {
 });
 ```
 
-CMD/TERMINAL
+CMD/Terminal
 
 ```
 gulp buildthirdpartyscripts
